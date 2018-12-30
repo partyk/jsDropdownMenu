@@ -1,0 +1,38 @@
+{
+  "name": "js-dropdown-menu",
+  "version": "1.0.0",
+  "description": "Simple drop-down menu.",
+  "main": "dist/jsdropdownmenu.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/partyk/jsDropdownMenu.git"
+  },
+  "keywords": [
+    "javascript",
+    "drop-down",
+    "menu"
+  ],
+  "author": "Bohdan Partyk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/partyk/jsDropdownMenu/issues"
+  },
+  "homepage": "https://github.com/partyk/jsDropdownMenu#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-syntax-object-rest-spread": "^7.2.0",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/register": "^7.0.0",
+    "@partyk/eslint-config-standard": "git+https://github.com/partyk/eslint-config-standart.git",
+    "babel-plugin-loop-optimizer": "^1.4.1",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-eslint": "^5.0.0",
+    "gulp-uglify": "^3.0.1",
+    "minimist": "^1.2.0"
+  }
+}

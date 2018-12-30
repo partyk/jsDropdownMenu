@@ -1,0 +1,18 @@
+{
+  "presets": [
+    ["@babel/env", {
+      "targets": {
+        "browsers": [
+          "> 1% in CZ",
+          "Explorer >= 9",
+          "iOs >= 9",
+          "last 3 versions"
+        ]
+      }
+    }]
+  ],
+  "plugins": [
+    "@babel/plugin-syntax-object-rest-spread",
+    "babel-plugin-loop-optimizer"
+  ]
+}
