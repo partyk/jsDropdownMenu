@@ -26,7 +26,6 @@ const js = gulp.task('js', (callBack) => {
             .pipe(eslint())
             .pipe(eslint.format())
             .pipe(babel(babelrc))
-            .pipe(gulp.dest('dist'))
             .pipe(uglify())
             .pipe(gulp.dest('dist', {
                 sourcemaps: '.'

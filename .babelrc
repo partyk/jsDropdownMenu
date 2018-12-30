@@ -11,8 +11,14 @@
       }
     }]
   ],
+  "ignore": [
+    "src/polifyllClosest.js"
+  ],
   "plugins": [
     "@babel/plugin-syntax-object-rest-spread",
-    "babel-plugin-loop-optimizer"
+    "babel-plugin-loop-optimizer",
+    ["@babel/plugin-transform-modules-umd", {
+      "exactGlobals": false
+    }]
   ]
 }

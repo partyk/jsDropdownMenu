@@ -13,7 +13,7 @@ Paste to between head tag
 ```
 <script type="application/javascript" src="../dist/jsDropdownMenu.js"></script>
 <script>
-    new JsDropdownMenu();
+    new jsDropdownMenu.defult();
 </script>
 ```
 
@@ -26,7 +26,7 @@ new JsDropdownMenu();
 
 For add support internet explorer add polyfill for closest.
 
-```dist/polifyllExplorer.js```
+```dist/polifyllClosest.js```
 
 Example: 
 ```
@@ -34,7 +34,7 @@ Example:
 <html>
 <head>
     <![if !IE]>
-    <script type="application/javascript" src="../dist/polifyllExplorer.js"></script>
+    <script type="application/javascript" src="../dist/polifyllClosest.js"></script>
     <![endif]>
     <script type="application/javascript" src="../dist/jsDropdownMenu.js"></script>
     <style>
@@ -99,7 +99,7 @@ Example:
     </li>
 </ul>
 <script>
-    new JsDropdownMenu();
+    new jsDropdownMenu.defult();
 </script>
 </body>
 </html>

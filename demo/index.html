@@ -2,7 +2,7 @@
 <html>
 <head>
     <![if !IE]>
-    <script type="application/javascript" src="../dist/polifyllExplorer.js"></script>
+    <script type="application/javascript" src="../dist/polifyllClosest.js"></script>
     <![endif]>
     <script type="application/javascript" src="../dist/jsDropdownMenu.js"></script>
     <style>
@@ -38,7 +38,7 @@
 <body>
 <ul>
     <li class="dropdown-menu">
-        <span class="dropdown-menu-button">Item 1</span>
+        <a href="http://www.idnes.cz" class="dropdown-menu-button"><span>Item 1</span></a>
         <ul>
             <li>Sub Item 1</li>
             <li>Sub Item 2</li>
@@ -67,7 +67,7 @@
     </li>
 </ul>
 <script>
-    new JsDropdownMenu();
+    new jsDropdownMenu.default();
 </script>
 </body>
 </html>
