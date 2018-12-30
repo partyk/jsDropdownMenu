@@ -23,6 +23,7 @@
         }
         handleClick(e) {
             if (e.target.classList.contains(this.options.class + '-button') || e.target.closest('.' + this.options.class + '-button')) {
+                e.preventDefault();
                 this.handleDropdown(e.target);
             } else {
                 this.handleClose(e.target);
