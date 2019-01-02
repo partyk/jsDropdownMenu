@@ -26,7 +26,7 @@ new JsDropdownMenu();
 
 For add support internet explorer add polyfill for closest.
 
-```dist/polifyllClosest.js```
+```dist/polyfillClosest.js```
 
 Example: 
 ```
@@ -34,7 +34,7 @@ Example:
 <html>
 <head>
     <![if !IE]>
-    <script type="application/javascript" src="../dist/polifyllClosest.js"></script>
+    <script type="application/javascript" src="../dist/polyfillClosest.js"></script>
     <![endif]>
     <script type="application/javascript" src="../dist/jsDropdownMenu.js"></script>
     <style>

@@ -35,7 +35,6 @@ export default class JsDropdownMenu {
             }
         });
     }
-
     removeClass(el) {
         el.classList.remove(this.options.openClass);
     }
