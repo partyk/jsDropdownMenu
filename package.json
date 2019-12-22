@@ -22,18 +22,21 @@
   },
   "homepage": "https://github.com/partyk/jsDropdownMenu#readme",
   "devDependencies": {
-    "@babel/core": "^7.2.2",
-    "@babel/plugin-syntax-object-rest-spread": "^7.2.0",
-    "@babel/plugin-transform-modules-umd": "^7.2.0",
-    "@babel/preset-env": "^7.2.3",
-    "@babel/register": "^7.0.0",
+    "@babel/core": "^7.7.7",
+    "@babel/plugin-syntax-object-rest-spread": "^7.7.4",
+    "@babel/plugin-transform-modules-umd": "^7.7.4",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/register": "^7.7.7",
     "@partyk/eslint-config-standard": "git+https://github.com/partyk/eslint-config-standart.git",
     "babel-plugin-loop-optimizer": "^1.4.1",
-    "gulp": "^4.0.0",
+    "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
     "gulp-clean": "^0.4.0",
     "gulp-eslint": "^5.0.0",
-    "gulp-uglify": "^3.0.1",
+    "gulp-uglify": "^3.0.2",
     "minimist": "^1.2.0"
+  },
+  "dependencies": {
+    "eslint-config-standart-partyk": "git+https://github.com/partyk/eslint-config-standart.git"
   }
 }
