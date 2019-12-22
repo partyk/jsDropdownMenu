@@ -3,7 +3,8 @@ export default class JsDropdownMenu {
         this.options = {
             ...{
                 'class': 'dropdown-menu',
-                'openClass': 'dropdown-menu-show'
+                'openClass': 'dropdown-menu-show',
+                'closeClick': true
             },
             ...options
         };
@@ -18,7 +19,7 @@ export default class JsDropdownMenu {
         if (e.target.classList.contains(this.options.class + '-button') || e.target.closest('.' + this.options.class + '-button')) {
             e.preventDefault();
             this.handleDropdown(e.target);
-        } else {
+        } else if (this.options.closeClick) {
             this.handleClose(e.target);
         }
     }
